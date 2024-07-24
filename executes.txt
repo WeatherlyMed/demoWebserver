@@ -10,8 +10,8 @@ sudo a2enmod wsgi
 sudo apt-get install python3.5
 alias python=python3
 source ~/.bashrc
-mkdir /www/var/website
+mkdir /www/var/https
 sudo apt-get install pipx
 sudo pipx install virtualenv
 pipx ensurepath
-cd www/var/website
+cd www/var/https
