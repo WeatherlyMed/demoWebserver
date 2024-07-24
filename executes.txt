@@ -11,3 +11,5 @@ alias python=python3
 source ~/.bashrc
 mkdir /www/var/https
 cd www/var/https
+gh auth login
+gh clone {your website/template github}
