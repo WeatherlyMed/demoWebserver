@@ -1,17 +1,13 @@
 sudo raspi-config 
 Select "Interfacing Options".
 Select "SSH".
+hostname -I
+# Now SSH into your pi
 sudo apt update
 sudo apt install apache2 -y
-hostname -I
-ping {IP address that was returned}
 sudo apt-get install libapache2-mod-wsgi-py3
 sudo a2enmod wsgi
-sudo apt-get install python3.5
 alias python=python3
 source ~/.bashrc
 mkdir /www/var/https
-sudo apt-get install pipx
-sudo pipx install virtualenv
-pipx ensurepath
 cd www/var/https
