@@ -1,0 +1,5 @@
+image pi with pi light
+(pi 2 or above is recommended)
+SSH Into your Pi 
+Install your webserver
+Upload the pages you will be serving
