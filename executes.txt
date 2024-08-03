@@ -13,6 +13,14 @@ cd ~/my_flask_app
 python3 -m venv venv
 source venv/bin/activate
 pip install Flask
-
-gh auth login
-gh clone {your website/template github}
+sudo apt-get install screen
+sudo apt-get install git
+git clone {your website/template github}
+python app.py
+{control C to cancel after testing}
+sudo apt-get upgrade
+shutdown
+screen -S my_flask_app
+source venv/bin/activate
+#cd to directory
+python app.py
