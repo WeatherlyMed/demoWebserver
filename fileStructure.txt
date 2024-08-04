@@ -1,0 +1,14 @@
+my_flask_app/
+│
+├── app.py
+├── templates/
+│   ├── about.html
+│   ├── home.html
+│   └── contact.html
+└── static/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── script.js
+    └── images/
+        └── logo.png
