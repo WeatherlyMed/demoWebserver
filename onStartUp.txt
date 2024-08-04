@@ -1,0 +1,6 @@
+First use the cd command to find the direcory of your app.py file and your website assets
+"cd my_flask_app"
+Then open your python enviroment with venv
+"source venv/bin/activate"
+Then run the app.py script using python
+"python app.py"
