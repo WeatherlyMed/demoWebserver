@@ -1,2 +1,3 @@
 # demoWebserver
 A basic guide to creating a local demo web server for testing deployments on a raspberrypi privately before pushing to a commerical server
+![alt text](https://github.com/WeatherlyMed/demoWebserver/blob/main/pi.jpg)
